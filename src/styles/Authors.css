@@ -1,0 +1,169 @@
+body{
+
+    background:#f4f6f9;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.author-container{
+
+    width:95%;
+
+    margin:auto;
+
+    margin-top:30px;
+
+}
+
+.title{
+
+    text-align:center;
+
+    color:#0d6efd;
+
+    margin-bottom:30px;
+
+}
+
+.author-form{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:10px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+.author-form input{
+
+    width:100%;
+
+    padding:12px;
+
+    margin-top:15px;
+
+    border:1px solid #ccc;
+
+    border-radius:6px;
+
+    font-size:16px;
+
+}
+
+.button-group{
+
+    margin-top:25px;
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+}
+
+.button-group button{
+
+    padding:12px 25px;
+
+    border:none;
+
+    color:white;
+
+    border-radius:6px;
+
+    cursor:pointer;
+
+    font-size:16px;
+
+}
+
+.add-btn{
+
+    background:#198754;
+
+}
+
+.update-btn{
+
+    background:#0d6efd;
+
+}
+
+.delete-btn{
+
+    background:#dc3545;
+
+}
+
+.search-btn{
+
+    background:#ffc107;
+
+    color:black;
+
+}
+
+.clear-btn{
+
+    background:#6c757d;
+
+}
+
+.button-group button:hover{
+
+    opacity:0.8;
+
+}
+
+table{
+
+    width:100%;
+
+    margin-top:40px;
+
+    border-collapse:collapse;
+
+    background:white;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+
+}
+
+table th{
+
+    background:#0d6efd;
+
+    color:white;
+
+    padding:15px;
+
+}
+
+table td{
+
+    padding:12px;
+
+    border:1px solid #ddd;
+
+    text-align:center;
+
+}
+
+table tr:nth-child(even){
+
+    background:#f8f9fa;
+
+}
+
+table tr:hover{
+
+    background:#dbeafe;
+
+}

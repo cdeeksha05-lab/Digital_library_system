@@ -1,0 +1,57 @@
+.navbar{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    right:0;
+
+    height:70px;
+
+    background:#0d6efd;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 30px;
+
+    z-index:1000;
+
+    box-shadow:0 3px 10px rgba(0,0,0,.2);
+
+}
+
+.left{
+
+    display:flex;
+
+    align-items:center;
+
+}
+
+.left img{
+
+    width:45px;
+
+    margin-right:15px;
+
+}
+
+.right{
+
+    display:flex;
+
+    gap:20px;
+
+    align-items:center;
+
+    font-size:18px;
+
+}
